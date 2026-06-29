@@ -1,0 +1,55 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Data artifacts (never commit raw or derived tables)
+*.csv
+*.zip
+*.gz
+*.parquet
+*.feather
+*.xlsx
+*.xls
+
+# Logs and local outputs
+logs/
+output/
+data/raw/
+data/processed/
+*.log
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
