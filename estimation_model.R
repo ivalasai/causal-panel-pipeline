@@ -104,7 +104,7 @@ run_event_study <- function(df) {
 
 summarize_dynamic_effects <- function(model) {
   # Aggregate post-treatment average effect (customize event window as needed)
-  agg <- fixest::summary(model, agg = "att")
+  agg <- summary(model, agg = "att")
   print(agg)
   invisible(agg)
 }
